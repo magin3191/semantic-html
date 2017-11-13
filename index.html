@@ -2,19 +2,19 @@
 <html>
 <body>
 <form>
-<form action="">
+
 Email:<br>
-<input type="email" name="userid">
+<input type="email" name="userid" required>
 <br>
 User password:<br>
-<input type="password" name="psw">
-</form>
+<input type="password" name="psw" required>
 
-<form action="">
+
+
 Github Username:<br>
-<input type="text" name="username"><br>
+<input type="text" name="username" required><br>
 
-</form>
+
 
 <input type="radio" name="btn" value="Enterprise"> Enterprise<br>
 <input type="radio" name="btn" value="Pro"> Pro<br>
@@ -25,6 +25,7 @@ Github Username:<br>
 <div style="margin-left: 25px;">
      Remember me.
 </div>
+<input type="submit" value="Submit">
 
 </form>
 </body>
